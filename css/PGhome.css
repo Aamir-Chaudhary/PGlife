@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* Nav Bar */
+  .nav-bar {
+    height: 4rem;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+  
+  .nav-logo {
+    background-image: url("/img/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 2.5rem;
+    width: 6.75rem;
+  }
+  
+  .nav-login-signup {
+    height: 2.5rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+  }
+  
+  .nav-signup,
+  .nav-login {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .nav-signup a,
+  .nav-login a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #00000080;
+  }
+  
+  .nav-signup a:hover,
+  .nav-login a:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .divider {
+    height: 1.5rem;
+    width: 1px;
+    background-color: #00000080;
+  }
+  
+  .nav-bar2 {
+    height: 2.18rem;
+    width: 100%;
+    font-size: 0.8125rem;
+    font-family: "Open Sans", sans-serif;
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    background-color: #e5e3e8;
+    padding-left: 15px;
+  }
+  
+  .breadcrumb-items {
+    font-size: 0.8125rem;
+    color: #4dc7bc;
+    text-decoration: none;
+  }
+  
+  .breadcrumb-items::after {
+    content: "/";
+    margin: 0.5rem;
+    color: black;
+  }
+  .breadcrumb-items:hover
+  {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    height: 18.75rem;
+    width: 100%;
+    background-image: url("/img/hero-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Stars and Interests */
+  .star-interestes-info {
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .star {
+    display: flex;
+    color: red;
+    font-size: 0.8125rem;
+    gap: 0.5rem;
+  }
+  
+  .interest-count {
+    display: flex;
+    align-items: center;
+    color: red;
+    gap: 0.4rem;
+  }
+  
+  .interest-count p {
+    color: black;
+    margin: 0;
+  }
+  
+.address
+{
+  height: 10rem;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding-left: 315px;
+}  
+
+  .guest-house-name {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #373737;
+  }
+  
+  .guest-house-address {
+    width: 100%;
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.4;
+  }
+  .unisex-logo
+  {
+    height: 2.5rem;
+    width: 20rem;
+    background-image: url("/img/unisex.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .price-details
+  {
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .price
+  {
+    font-size: 1rem;
+    color: #373737;
+    font-weight: 700;
+    display: flex;
+  }
+  .book-button
+  {
+    height: 2.125rem;
+    width: 8.75rem;
+    background-color: #4dc7bc;
+    color:white;
+    align-items: center;
+    border: none;
+  }
+  .book-button a
+  {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+  }
+  .book-button a:hover
+  {
+      background-color: #06fce8;
+  }
+
+  .Amenities
+  {
+     height: 2.5rem;
+     width: 10rem;
+     font-size: 2rem;
+     font-weight: 700;
+     color: black;
+     padding-top: 50px;
+     display: flex;
+     padding-left: 300px;
+  }
+  .amenities {
+    padding: 2rem 1rem;
+    background-color: #f7f7f7;
+  }
+  
+  .amenities h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .amenities-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .amenities-category {
+    flex: 1 1 200px;
+  }
+  
+  .amenities-category h3 {
+    font-size: 1.2rem;
+    color: #4dc7bc;
+    margin-bottom: 0.5rem;
+  }
+  
+  .amenities-category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .amenities-category li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .amenities-category li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+
+  
